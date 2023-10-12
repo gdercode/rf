@@ -13,6 +13,11 @@ $this->load->view('rf/main_parts/header'); ?>
 				<h5><?php echo form_error('log_username'); ?></h5>
 				<input type="text" name="log_username" value="<?php echo set_value('log_username'); ?>" placeholder="Username" />
 			</p>
+
+			<p>	
+				<h5><?php echo form_error('log_lm'); ?></h5>
+				<input type="text" name="log_lm" value="<?php echo set_value('log_lm'); ?>" placeholder="lm" />
+			</p>
 			<p>
 				<h5><?php echo form_error('log_password'); ?></h5>
 				<input type="password" name="log_password" value="<?php echo set_value('log_password'); ?>" placeholder="password" />

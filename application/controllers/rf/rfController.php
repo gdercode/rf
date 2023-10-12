@@ -114,7 +114,7 @@ class rfController extends CI_Controller  						// main controller
 			return;
 		}
 
-		$this->form_validation->set_rules('log_username','Username','trim|required|min_length[2]|max_length[50]'); 		
+		
 	 	$this->form_validation->set_rules('log_password', 'Password', 'trim|required|min_length[2]'); 	// rules for password
 
 		if ($this->form_validation->run() == FALSE)	 // if validation fail
